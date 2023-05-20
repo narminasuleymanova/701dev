@@ -1,0 +1,147 @@
+body {
+    background: linear-gradient(263.19deg, rgba(36, 33, 69, 0.3) 44.67%,
+     rgba(218, 30, 116, 0.3) 91.01%), 
+     linear-gradient(106.52deg, #242145 54.69%, #DA1E74 100%);
+}
+#first_page_701 {
+    position: absolute;
+width: 5%; 
+height: 10%;
+left: 5%;
+top: 5%;
+}
+#giriş {
+    box-sizing: border-box;
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 1% 1%;
+gap: 1%;
+
+position: absolute;
+width: 15%;
+height: 7%;
+right: 19%;
+top: 7%;
+
+border: 3.23463px solid #6058BE;
+border-radius: 13.3221px;
+background: transparent;
+font-family: 'Poppins';
+color:#FFFFFF;
+font-weight: bold;
+}
+
+#qeydiyyat {
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 17.3188px 65.2785px;
+gap: 13.32px;
+color:#FFFFFF;
+font-family: 'Poppins';
+
+position: absolute;
+width: 15%;
+height: 7%;
+right: 3%;
+top: 7%;
+font-weight: bold;
+
+background: #E4005C;
+border-radius: 13.3221px;
+border:none;
+}
+
+#first_page_girl {
+    position: absolute;
+width: 70;
+height: 80%;
+right: 1%;
+top:20%;
+}
+
+#logo {
+    position: absolute;
+width: 40%;
+height: 10%;
+letter-spacing: 50%;
+left: 7%;
+top: 15%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 450%;
+line-height: 150%;
+
+color: #FFFFFF;
+}
+
+#logo2 {
+    position: absolute;
+width: 681.44px;
+height: 73.79px;
+left: 7%;
+top: 52%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 120%;
+line-height: 36px;
+
+color: #FFFFFF;
+
+}
+
+#free_trial {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 17.3188px 65.2785px;
+gap: 13.32px;
+
+position: absolute;
+width: 207.61px;
+height: 63.64px;
+left: 7%;
+top: 80%;
+border: none;
+
+background: #E4005C;
+font-family: 'Poppins';
+color:#FFFFFF;
+border-radius: 13.3221px;
+font-weight: bold;
+}
+
+#demo {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 17.3188px 65.2785px;
+gap: 13.32px;
+
+position: absolute;
+width: 222.38px;
+height: 67.08px;
+left: 22%;
+top: 80%;
+background: transparent;
+color: white;
+font-family: 'Poppins';
+
+border-radius: 13.3221px;
+border:0;
+font-weight: bold;
+}
+
+#second_page {
+    background: #E5E5E5;
+}
