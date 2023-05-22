@@ -1,35 +1,53 @@
-body {
-    background: linear-gradient(263.19deg, rgba(36, 33, 69, 0.3) 44.67%,
-     rgba(218, 30, 116, 0.3) 91.01%),
-     linear-gradient(106.52deg, #242145 54.69%, #DA1E74 100%);
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div.first_page {
+    height: 100vh;
+    width:100%; 
+    background:  linear-gradient(263.19deg, rgba(36, 33, 69, 0.3) 44.67%,
+    rgba(218, 30, 116, 0.3) 91.01%),
+    linear-gradient(106.52deg, #242145 54.69%, #DA1E74 100%);
 }
 
 #first_page_701 {
+    float: left;
     position: absolute;
-    width: 5%;
-    height: 10%;
-    left: 7%;
-    top: 5%;
+    height: 12%;
+    width: 7%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+#qeydiyyat{
+    float: right;
+    height: 7%;
+    width: 15%;
+    margin-right: 5%;
+    margin-top: 4%;
+    margin-left: 1%;
+    
+
+    background: #E4005C;
+    border-radius: 13px;
+    border: 3px solid transparent;
+    color:#FFFFFF;
+    font-family: 'Poppins';
+    font-size: 125%;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 #giriş {
-    box-sizing: border-box;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 1% 1%;
-    gap: 1%;
-
-    position: absolute;
-    width: 15%;
+    float: right;
     height: 7%;
-    right: 20%;
-    top: 5%;
+    width: 15%;
+    margin-right: 1%;
+    margin-top: 4%;
 
+    border-radius: 13px;
     border: 3px solid #6058BE;
-    border-radius: 13.3221px;
     background: transparent;
     font-family: 'Poppins';
     color:#FFFFFF;
@@ -42,151 +60,81 @@ body {
     border: 3px solid #e4005c;
 }
 
-#qeydiyyat {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 17.3188px 65.2785px;
-    gap: 13.32px;
-    color:#FFFFFF;
-    font-family: 'Poppins';
-
-    position: absolute;
-    width: 15%;
-    height: 7%;
-    right: 3%;
-    top: 5%;
-    font-size: 125%;
-    font-weight: bold;
-    cursor: pointer;
-
-    background: #E4005C;
-    border-radius: 13.3221px;
-    border:none;
-}
-
 #qeydiyyat:hover {
     background: #c00046;
 }
 
-#first_page_girl {
-    position: absolute;
-width: 70px;
-height: 80%;
-right: 1%;
-top:20%;
-}
-
 #slogan {
     position: absolute;
-width: 40%;
-height: 10%;
-letter-spacing: 50%;
-left: 7%;
-top: 15%;
+    float: left;
+    margin-top: 15%;
+    width: 40%;
+    height: 10%;
+    margin-left: 5%;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: bold;
-font-size: 450%;
-line-height: 150%;
-
-color: #FFFFFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 450%;
+    line-height: 150%;
+    color: #FFFFFF;
 }
 
-#fist_page_lipsum {
+#first_page_lipsum {
     position: absolute;
-width: 681.44px;
-height: 73.79px;
-left: 7%;
-top: 55%;
+    float: left;
+    width: 40%;
+    height: 20%;
+    margin-top: 33%;
+    margin-left: 5%;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 120%;
-line-height: 36px;
-
-color: #FFFFFF;
-
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 120%;
+    line-height: 36px;
+    color: #FFFFFF;
 }
 
 #free_trial {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 17.3188px 65.2785px;
-    gap: 13.32px;
-
     position: absolute;
+    float: left;
     width: 15%;
     height: 8%;
-    left: 7%;
-    top: 73%;
-    border: none;
-    cursor: pointer;
+    margin-top: 45%;
+    margin-left: 5%;
 
+    cursor: pointer;
     background: #E4005C;
     font-family: 'Poppins';
     font-size: 100%;
     color:#FFFFFF;
     border-radius: 13.3221px;
+    border: 3px solid transparent;
     font-weight: bold;
+
+}
+
+#demo {
+    position: absolute;
+    float: left;
+    width: 15%;
+    height: 8%;
+    margin-top: 45%;
+    margin-left: 22%;
+
+    font-family: 'Poppins';
+    border-radius: 13.3221px;
+    border: 0px solid #6058BE;
+    font-size: 110%;
+    font-weight: bold;
+    cursor: pointer;
+    background: transparent;
+    color: white;
+    
 }
 
 #free_trial:hover {
     background: #c00046;
 }
 
-
-
-#play {
-    position: absolute;
-    width: 42.63px;
-    height: 42.63px;
-    left: 22%;
-    top: 81%;
-
-    background: #E4005C;
-}
-
-#play2 {
-    position: absolute;
-    width: 18.65px;
-    height: 18.65px;
-    left: 23%;
-    top: 83%;
-
-    background: #FFFFFF;
-}
-
-#demo {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 17.3188px 65.2785px;
-    gap: 13.32px;
-
-    position: absolute;
-    width: 15%;
-    height: 8%;
-    left: 22%;
-    top: 73%;
-    background: transparent;
-    color: white;
-    font-family: 'Poppins';
-
-    border-radius: 13.3221px;
-    border: 0px solid #6058BE;
-    font-size: 110%;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-
-#second_page {
-    background: #E5E5E5;
-}
