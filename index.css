@@ -3,15 +3,15 @@
     padding: 0;
 }
 
-div.first_page {
+div.callToAction {
     height: 100vh;
-    width:100%; 
-    background:  linear-gradient(263.19deg, rgba(36, 33, 69, 0.3) 44.67%,
+    width: 100%;
+    background: linear-gradient(263.19deg, rgba(36, 33, 69, 0.3) 44.67%,
     rgba(218, 30, 116, 0.3) 91.01%),
     linear-gradient(106.52deg, #242145 54.69%, #DA1E74 100%);
 }
 
-#first_page_701 {
+#cta701 {
     float: left;
     position: absolute;
     height: 12%;
@@ -20,48 +20,41 @@ div.first_page {
     margin-top: 2%;
 }
 
-#qeydiyyat{
+#signUp, #logIn {
     float: right;
     height: 7%;
     width: 15%;
     margin-right: 5%;
     margin-top: 4%;
     margin-left: 1%;
-    
 
     background: #E4005C;
     border-radius: 13px;
     border: 3px solid transparent;
-    color:#FFFFFF;
+
+    color: #FFFFFF;
     font-family: 'Poppins';
     font-size: 125%;
     font-weight: bold;
+
     cursor: pointer;
 }
 
-#giriş {
-    float: right;
-    height: 7%;
-    width: 15%;
+#logIn {
     margin-right: 1%;
     margin-top: 4%;
+    margin-left: 0;
 
-    border-radius: 13px;
-    border: 3px solid #6058BE;
     background: transparent;
-    font-family: 'Poppins';
-    color:#FFFFFF;
-    font-size: 125%;
-    font-weight: bold;
-    cursor: pointer;
+    border: 3px solid #6058BE;
 }
 
-#giriş:hover {
-    border: 3px solid #e4005c;
-}
-
-#qeydiyyat:hover {
+#signUp:hover {
     background: #c00046;
+}
+
+#logIn:hover {
+    border: 3px solid #e4005c;
 }
 
 #slogan {
@@ -80,7 +73,7 @@ div.first_page {
     color: #FFFFFF;
 }
 
-#first_page_lipsum {
+#ctaLipsum {
     position: absolute;
     float: left;
     width: 40%;
@@ -96,7 +89,7 @@ div.first_page {
     color: #FFFFFF;
 }
 
-#free_trial {
+#freeTrial, #demo {
     position: absolute;
     float: left;
     width: 15%;
@@ -107,34 +100,78 @@ div.first_page {
     cursor: pointer;
     background: #E4005C;
     font-family: 'Poppins';
-    font-size: 100%;
+    font-size: 110%;
     color:#FFFFFF;
     border-radius: 13.3221px;
     border: 3px solid transparent;
     font-weight: bold;
-
 }
 
 #demo {
-    position: absolute;
-    float: left;
-    width: 15%;
-    height: 8%;
-    margin-top: 45%;
     margin-left: 22%;
 
-    font-family: 'Poppins';
-    border-radius: 13.3221px;
     border: 0px solid #6058BE;
-    font-size: 110%;
-    font-weight: bold;
-    cursor: pointer;
+
     background: transparent;
-    color: white;
-    
+
 }
 
-#free_trial:hover {
+#freeTrial:hover {
     background: #c00046;
 }
 
+div.lessonChoice {
+    text-align: center;
+    margin-top: 7%;
+    /* /margin-left: 20%;/ */
+}
+
+.group {
+    height: 10%;
+    width: 10%;
+    padding: 0.5%;
+    margin-right: 0.3%;
+
+    background: transparent;
+    border: 3px solid #6058BE;
+    border-radius: 61px;
+
+    color: #130F25;
+    font-family: 'Poppins';
+    font-size: 125%;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    /* /position: relative;/
+    /left: -100px;/ */
+}
+
+.group:hover {
+    background: #E4005C;
+    border: 3px solid transparent;
+    color: #FFFFFF;
+}
+
+.lesson {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    float: left;
+    width: 20%;
+    padding-bottom: 7%;
+    margin-top: 3%;
+    background: #FFFFFF;
+    box-shadow: 0px 12.9385px 64.6926px #CCCCCC;
+    border-radius: 32.3463px;
+}
+
+#lesson1 {margin-left: 17%;}
+#lesson2 {margin-left: 40%;}
+#lesson3 {margin-left: 63%;}
+
+.lessonImage {
+    width: 70%;
+    height: 70%;
+}
