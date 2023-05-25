@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+#img701 {
+    height: 12%;
+    width: 7%;
+    float: left;
+    margin-top: 0.5%;
+    margin-left: 3%;
+}
+
+#block {
+    float: left;
+    position: absolute;
+    background-color: #969696;
+    height: 80vh;
+    width: 20%;
+    margin-top: 8%;
+    margin-left: 3%;
+    border-radius: 10px;
+}
+
+#topic {
+    float: left;
+    font-weight: bold;
+    font-family: 'Poppins';
+    margin-top: 3%;
+    margin-left: 5%;
+    font-size: 120%;
+}
+
+#lessons {
+    float: left;
+    font-weight: bold;
+    font-family: 'Poppins';
+    margin-top: 35%;
+    font-size: 110%;
+    margin-left: -53%;
+}
+
+.topic {
+    float: left;
+    font-weight: bold;
+    font-family: 'Poppins';
+    font-size: 95%;
+}
+
+#topic1 {
+    margin-top: 45%;
+    margin-left: -45%;
+}
+
+#topic2 {
+    margin-top: 55%;
+    margin-left: -45%;
+}
+
+#topic3 {
+    margin-top: 65%;
+    margin-left: -60.5%;
+}
+
+#tests {
+    float: left;
+    font-weight: bold;
+    font-family: 'Poppins';
+    margin-top: 83%;
+    font-size: 110%;
+    margin-left: -68%;
+}
+
+.test {
+    float: left;
+    font-weight: bold;
+    font-family: 'Poppins';
+    font-size: 95%;
+}
+
+#test1 {
+    margin-top: 32%;
+    margin-left: 15%;
+}
+
+#test2 {
+    margin-left: -14.5%;
+    margin-top: 42%;
+}
+
+#test3 {
+    margin-left: -16%;
+    margin-top: 52%;
+}
+
+#lesson1 {
+    float: left;
+    font-weight: bold;
+    font-family: 'Poppins';
+    font-size: 130%;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+
+#block_video {
+    background-color: #969696;
+    position: absolute;
+    float: left;
+    height:50%;
+    width: 47%;
+    margin-left: 30%;
+    margin-top: 8%;
+}
+
+#next {
+    float: right;
+    font-weight: bold;
+    font-family: 'Poppins'; 
+    font-size: 130%;
+    margin-top: 3%;
+    margin-right: 13%;
+}
