@@ -9,65 +9,97 @@
 </head>
 
 <body>
-<div class = "callToAction">
-    <img src="sources/701 purple 2.png" alt="701" id="cta701">
-    <button type="button" id="signUp">Qeydiyyat</button>
-    <button type="button" id="logIn">Giriş</button>
 
-    <button type="button" id="demo">Play Demo</button>
-    <button type="button" id="freeTrial">Start Free Trial</button>
+<div class="call-to-action">
+    <img src="sources/701 purple 2.png" alt="701" class="cta-701">
+    <button type="button" class="fill-button" id="sign-up">Qeydiyyat</button>
+    <button type="button" class="stroke-button" id="log-in">Giriş</button>
 
-    <p id="slogan">Sıxıcı dərslərlə sağollaş</p>
-    <p id="ctaLipsum">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-        Vel sint blanditiis libero in! Doloribus quibusdam quisquam quae quasi inventore.</p>
+    <p id="slogan">Abituriyent həyatını bizlə asanlaşdır</p>
+    <p id="cta-lipsum">701 ilə imtahanlara əyləncəli və sərfəli dərslərlə hazırlaşın, stereotipləri bizimlə qırın!</p>
+
+    <button type="button" class="fill-button" id="free-trial">Start Free Trial</button>
 </div>
 
-<div class="lessonChoice">
+<div class="lesson-choice">
     <button type="button" class="group">Buraxılış</button>
     <button type="button" class="group">1-ci qrup</button>
     <button type="button" class="group">2-ci qrup</button>
     <button type="button" class="group">3-cü qrup</button>
     <button type="button" class="group">4-cü qrup</button>
-    <div id="lessonsBlock">
-        <div class="lesson">
-            <img src="sources/girl_landing_page.png" alt="701" class="lessonImage">
-            <p class="lessonName">Riyaziyyat</p>
-            <p class="lessonDesc">120 video</p>
-            <p class="lessonDesc">Rüfət Quliyev</p>
-        </div>
-        <div class="lesson" id="lesson2">
-            <img src="sources/girl_landing_page.png" alt="701" class="lessonImage">
-            <p class="lessonName">Fizika</p>
-            <p class="lessonDesc">100 video</p>
-            <p class="lessonDesc">Fəxri Gözəlov</p>
-        </div>
-        <div class="lesson" id="lesson3">
-            <img src="sources/girl_landing_page.png" alt="701" class="lessonImage">
-            <p class="lessonName">İnformatika</p>
-            <p class="lessonDesc">120 video</p>
-            <p class="lessonDesc">Nərminə Süleymanova</p>
+
+
+    <div class="lesson" id="lesson1">
+        <img src="sources/math.jpg" alt="701" class="lesson-image">
+        <p class="lesson-name">Riyaziyyat</p>
+        <p class="lesson-desc">120 video</p>
+        <p class="lesson-desc">Rüfət Quliyev</p>
     </div>
+    <div class="lesson" id="lesson2">
+        <img src="sources/physics.jpg" alt="701" class="lesson-image">
+        <p class="lesson-name">Fizika</p>
+        <p class="lesson-desc">100 video</p>
+        <p class="lesson-desc">Fəxri Gözəlov</p>
     </div>
+    <div class="lesson" id="lesson3">
+        <img src="sources/it.jpg" alt="701" class="lesson-image">
+        <p class="lesson-name">İnformatika</p>
+        <p class="lesson-desc">120 video</p>
+        <p class="lesson-desc">Nərminə Süleymanova</p>
+    </div>
+
 </div>
 
-<div class="third_page">
-    <p id="why_us">Niyə 701?</p>
-    <p id="what_you_get">701 sizə bir çox yeniliklər təklif edir</p>
-    <div class="teklif" id="one">
-    <p class="main">Peşəkər müəllimlər</p>
-    <p class="detailed">Peşəkar və dərsləri maraqlı şəkildə çatdıran repetitorlar 701-in önəmli hissələrindən biridir.</p>
+<div class="why-701">
+    <p id="why-us-title">Niyə 701?</p>
+    <p id="why-us-lipsum">701 sizə bir çox yeniliklər təklif edir</p>
+
+    <div class="offer" id="offer1">
+        <p class="offer-title">Peşəkar müəllimlər</p>
+        <p class="offer-details">Peşəkar və dərsləri maraqlı şəkildə çatdıran repetitorlar 701-in önəmli hissələrindən biridir.</p>
+    </div>
+    <div class="offer" id="offer2">
+        <p class="offer-title">Yaradıcı və əyləncəli dərslər</p>
+        <p class="offer-details">Dərsləri daha yaxşı anlamanız üçün mövzular hekayələrl və animasiyalarla hazırlanmışdır.</p>
+    </div>
+    <div class="offer" id="offer3">
+        <p class="offer-title">Süni Zəka inteqrasiyası</p>
+        <p class="offer-details">Suallarınıza həm Süni Zəka, həm müəllimlər tərəfindən cavab ala bilərsiniz.</p>
+    </div>
+
 </div>
 
-<div class="teklif" id="two">
-    <p class="main">Yaradıcı və əyləncəli dərslər</p>
-    <p class="detailed">Dərsləri daha yaxşı anlamanız üçün mövzular hekayələrl və animasiyalarla hazırlanmışdır.</p>
+<div class="prices">
+    <p class="prices-title">Qiymətlər</p>
+
+    <div class="price" id="price1">
+        <p class="price-in-manats">250AZN</p>
+        <p class="price-desc">1 fənn</p>
+    </div>
+    <div class="price" id="price2">
+        <p class="price-in-manats">650AZN</p>
+        <p class="savings">-13%</p>
+        <p class="price-desc">Buraxılış paketi</p>
+    </div>
+    <div class="price" id="price3">
+        <p class="price-in-manats">1000AZN</p>
+        <p class="savings">-20%</p>
+        <p class="price-desc">Qəbul paketi</p>
+    </div>
+    <div class="price" id="price4">
+        <p class="price-in-manats">1250AZN</p>
+        <p class="savings">-20%</p>
+        <p class="price-desc">Full paket</p>
+    </div>
+
 </div>
 
-<div class="teklif" id="three">
-    <p class="main">Süni Zəka inteqrasiyası</p>
-    <p class="detailed">Suallarınıza həm Süni Zəka, həm müəllimlər tərəfindən cavab ala bilərsiniz.</p>
-</div>
+<div class="footer">
+    <img src="sources/701 purple 2.png" alt="701" class="footer-701">
+    <p class="footer-lipsum">Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit. Nam mollis, justo nec <br> porttitor auctor, erat sapien faucibus lectus, <br>vel tempor dolor augue et lectus. </p>
 
+    <p class="contact-title">Bizimlə əlaqə saxlayın</p>
+    <p class="contact-number">+994 ** *** ** **</p>
 </div>
 
 </body>

@@ -2,13 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto+Condensed:wght@300&family=Space+Mono&display=swap');
 
-
 * {
     margin: 0;
     padding: 0;
 }
 
-div.callToAction {
+/* ---------- */
+
+div.call-to-action {
     height: 100vh;
     width: 100%;
     background: linear-gradient(263.19deg, rgba(36, 33, 69, 0.3) 44.67%,
@@ -16,22 +17,19 @@ div.callToAction {
     linear-gradient(106.52deg, #242145 54.69%, #DA1E74 100%);
 }
 
-#cta701 {
+.cta-701 {
     float: left;
     position: absolute;
+
     height: 12%;
     width: 7%;
-    margin-left: 5%;
     margin-top: 2%;
+    margin-left: 5%;
 }
 
-#signUp, #logIn {
-    float: right;
+.fill-button, .stroke-button {
     height: 7%;
     width: 15%;
-    margin-right: 5%;
-    margin-top: 4%;
-    margin-left: 1%;
 
     background: #E4005C;
     border-radius: 13px;
@@ -39,95 +37,78 @@ div.callToAction {
 
     color: #FFFFFF;
     font-family: 'Inter';
-    font-size: 125%;
+    font-size: 120%;
     font-weight: 600;
 
     cursor: pointer;
 }
 
-#logIn {
-    margin-right: 1%;
-    margin-top: 4%;
-    margin-left: 0;
-
+.stroke-button {
     background: transparent;
     border: 3px solid #6058BE;
 }
 
-#signUp:hover {
+.fill-button:hover {
     background: #c00046;
 }
 
-#logIn:hover {
+.stroke-button:hover {
     border: 3px solid #e4005c;
+}
+
+#sign-up, #log-in {
+    float: right;
+    margin-top: 4%;
+    margin-right: 5%;
+    margin-left: 1%;
+}
+
+#log-in {
+    margin-right: 1%;
 }
 
 #slogan {
     position: absolute;
     float: left;
-    margin-top: 15%;
+
     width: 40%;
     height: 10%;
+    margin-top: 13%;
     margin-left: 5%;
 
     font-family: 'Poppins';
-    font-style: normal;
     font-weight: bold;
     font-size: 450%;
-    line-height: 150%;
+    /*line-height: 150%;*/
     color: #FFFFFF;
 }
 
-#ctaLipsum {
+#cta-lipsum {
     position: absolute;
     float: left;
+
     width: 40%;
     height: 20%;
-    margin-top: 33%;
+    margin-top: 37%;
     margin-left: 5%;
 
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 120%;
-    line-height: 36px;
+    line-height: 4vh;
     color: #FFFFFF;
 }
 
-#freeTrial, #demo {
-    position: absolute;
+#free-trial {
     float: left;
-    width: 15%;
-    height: 8%;
-    margin-top: 45%;
+    margin-top: 44%;
     margin-left: 5%;
-
-    cursor: pointer;
-    background: #E4005C;
-    font-family: 'Inter';
-    font-size: 110%;
-    color:#FFFFFF;
-    border-radius: 13.3221px;
-    border: 3px solid transparent;
-    font-weight: 600;
-}
-
-#demo {
-    margin-left: 22%;
-
-    border: 0px solid #6058BE;
-
-    background: transparent;
-
-}
-
-#freeTrial:hover {
-    background: #c00046;
 }
 
 /* ---------- */
 
-div.lessonChoice {
+div.lesson-choice {
     text-align: center;
     margin-top: 7%;
     margin-left: 17%;
@@ -135,6 +116,7 @@ div.lessonChoice {
 
 .group {
     float: left;
+
     height: auto;
     width: auto;
     padding: 0.5% 1%;
@@ -142,7 +124,7 @@ div.lessonChoice {
 
     background: transparent;
     border: 3px solid #6058BE;
-    border-radius: 61px;
+    border-radius: 69px;
 
     color: #130F25;
     font-family: 'Inter';
@@ -156,29 +138,32 @@ div.lessonChoice {
     background: #E4005C;
     border: 3px solid transparent;
     color: #FFFFFF;
-    font-weight: 500;
 }
 
 .lesson {
     position: absolute;
     float: left;
+
     width: 20%;
     padding-bottom: 1%;
     margin-top: 4.5%;
+
     background: #FFFFFF;
-    box-shadow: 0px 12.9385px 64.6926px #CCCCCC;
+    box-shadow: 0px 12px 64px #CCCCCC;
     border-radius: 16px;
 }
 
 #lesson2 {margin-left: 23%;}
 #lesson3 {margin-left: 46%;}
 
-.lessonImage {
-    width: 70%;
-    height: 70%;
+.lesson-image {
+    width: 100%;
+    height: 27vh;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
 }
 
-.lessonName {
+.lesson-name {
     position: absolute;
     float: left;
     margin-top: 4%;
@@ -190,7 +175,7 @@ div.lessonChoice {
     font-weight: bold;
 }
 
-.lessonDesc {
+.lesson-desc {
     float: left;
     margin-top: 18%;
     margin-left: 8%;
@@ -202,30 +187,29 @@ div.lessonChoice {
     font-weight: 400;
 }
 
-/*        */
+/* ---------- */
 
-div.third_page {
+div.why-701 {
     height: 100vh;
     width: 100%;
     background-color: #FFFFFF;
-    }
+}
 
-#why_us {
-    float:left;
+#why-us-title {
+    float: left;
     position: absolute;
     margin-top: 40%;
     margin-left: 8%;
 
     color: #130F25;
-    font-weight: bolder;
-        
-
-    font-size:300%
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 240%
 }
 
-#what_you_get {
-    float:left;
-    position:absolute;
+#why-us-lipsum {
+    float: left;
+    position: absolute;
     margin-top: 45%;
     margin-left: 8%;
 
@@ -234,54 +218,172 @@ div.third_page {
     font-size: 125%;
 }
 
-div#one {
+.offer {
     position: absolute;
     float: left;
     margin-top: 35%;
+    width: 17%;
+    height: 30%;
+    border-radius: 13px;
+}
+
+#offer1 {
     margin-left: 37%;
-    background: linear-gradient(45deg, rgba(36, 33, 69, 0.2) 25.14%,
-     rgba(207, 32, 112, 0.2) 75.15%), linear-gradient(90deg, #CF2070 0.29%, #242145 100.32%);
-    width: 17%;
-    height: 30%;
-    border-radius: 13px;
+    background: linear-gradient(202.47deg, rgba(36, 33, 69, 0.2) 6.46%, rgba(207, 32, 112, 0.2) 89.33%), linear-gradient(135.13deg, #CF2070 1.68%, #242145 100.12%);
 }
 
-div#two {
-    position: absolute;
-    float: left;
-    margin-top: 35%;
+#offer2 {
     margin-left: 57%;
-    background: linear-gradient(45deg, rgba(36, 33, 69, 0.2) 25.14%,
-     rgba(207, 32, 112, 0.2) 75.15%), linear-gradient(90deg, #CF2070 0.29%, #242145 100.32%);
-    width: 17%;
-    height: 30%;
-    border-radius: 13px;
+    background: linear-gradient(153.33deg, rgba(36, 33, 69, 0.2) 33.7%, rgba(207, 32, 112, 0.2) 83.28%), linear-gradient(180deg, #CF2070 0%, #242145 100%);
 }
 
-div#three {
-    position: absolute;
-    float: left;
-    margin-top: 35%;
+#offer3 {
     margin-left: 77%;
-    background: linear-gradient(45deg, rgba(36, 33, 69, 0.2) 25.14%,
-     rgba(207, 32, 112, 0.2) 75.15%), linear-gradient(90deg, #CF2070 0.29%, #242145 100.32%);
-    width: 17%;
-    height: 30%;
-    border-radius: 13px;
+    background: linear-gradient(45deg, rgba(36, 33, 69, 0.2) 25.14%, rgba(207, 32, 112, 0.2) 75.15%), linear-gradient(90deg, #CF2070 0.29%, #242145 100.32%);
 }
-.main{
+
+.offer-title {
     color:#FFFFFF;
-    font-family: 'Inter';
+    font-family: 'Poppins';
     font-weight: bold;
     margin-top: 30%;
-    margin-left: 5%;
+    margin-left: 8%;
 }
 
-.detailed {
+.offer-details {
     color: #ddd;
     font-family: 'Poppins';
-    margin-left: 3%;
-    margin-top: 10%;
+    width: 85%;
+    margin-left: 8%;
+    margin-top: 5%;
     font-size: 80%;
 }
 
+/* ---------- */
+
+div.prices {
+    text-align: center;
+    margin-top: 4%;
+}
+
+.prices-title {
+    color: #130F25;
+    font-family: Poppins;
+    font-weight: bold;
+
+    font-size: 300%
+}
+
+.price {
+    position: absolute;
+    float: left;
+
+    width: 20%;
+    padding-bottom: 25%;
+    margin-top: 4%;
+
+    background: #FFFFFF;
+    box-shadow: 0px 12px 64px #CCCCCC;
+    border-radius: 16px;
+}
+
+#price1 {margin-top: 5%; margin-left: 5.5%}
+#price2 {margin-left: 28.5%;}
+#price3 {margin-left: 51.5%;}
+#price4 {margin-left: 74.5%;}
+
+.price-in-manats {
+    margin-top: 8%;
+
+    color: #130F25;
+    font-family: Poppins;
+    font-weight: bold;
+    text-align: center;
+    font-size: 175%
+}
+
+.savings {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 1%;
+
+    width: 20%;
+    height: auto;
+    margin-left: 40%;
+    margin-top: 2%;
+
+    background: #E4005C;
+    border-radius: 100px;
+
+    color: white;
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 90%;
+}
+
+.price-desc {
+    margin-top: 2%;
+
+    font-family: Poppins;
+    font-weight: 600;
+    text-align: center;
+    color: #ADADAD;
+    font-size: 125%
+}
+
+/* ---------- */
+
+div.footer {
+    background-color: #393E46;
+    margin-top: 43%;
+    width: 100%;
+    height: 41vh;
+}
+
+.footer-701 {
+    float: left;
+    position: absolute;
+
+    height: 12%;
+    width: 7%;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.footer-lipsum {
+    position: absolute;
+    float: left;
+
+    margin-left: 6%;
+    margin-top: 10%;
+
+    font-family: Poppins;
+    font-size: 100%;
+    color: #CCCCCC;
+}
+
+.contact-title {
+    float: right;
+
+    margin-right: 6%;
+    margin-top: 10%;
+
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 120%;
+    color: #CCCCCC;
+}
+
+.contact-number {
+    float: right;
+    position: relative;
+
+    right: -20.7%;
+    margin-right: 6%;
+    margin-top: 13%;
+    font-family: Poppins;
+    font-size: 120%;
+    color: #CCCCCC;
+}
